@@ -6,19 +6,19 @@
 ###########################
 import math
 
-class Player
+class Player:
 
-	def __init__(self, health, mana, strength, dexterity, speed, defense, experience,equipmentattack, equipmentdefense, intelligence):
-		health = 100
-		mana = 25
-		strength = 1
-		dexterity = 1
-		speed = 1
-		defense = 1
-		experience = 0
-		equipmentattack = 0
-		equipmentdefense = 0
-		intelligence = 0
+	def __init__(self):
+		self.health = 100
+		self.mana = 25
+		self.strength = 1
+		self.dexterity = 1
+		self.speed = 1
+		self.defense = 1
+		self.experience = 0
+		self.equipmentattack = 0
+		self.equipmentdefense = 0
+		self.intelligence = 0
 		return self
 	
 	def move(self, position, newposition):
